@@ -1,0 +1,58 @@
+/* general style */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: #ffffff;
+    padding-bottom: 5rem;
+}
+img{
+    max-width: 100%;
+}
+
+/* header syle */
+.header{
+    background-color: #292929;
+    color: silver;
+    padding: 1.5rem;
+}
+.header ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.header a{
+    color:silver;
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+/* ocean-view style */
+.ocean-view{
+    display: flex;
+    margin-top: -3px;
+}
+.red{
+    background-color: red;
+    color: white;
+    padding: 2rem;
+    font-size: large;
+    max-width: 50%;
+}
+
+.yellow{
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    padding: 2rem;
+}
